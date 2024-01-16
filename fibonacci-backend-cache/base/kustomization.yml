@@ -1,0 +1,7 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+resources:
+- fibonacci-cache-config.yml
+- fibonacci-cache-log-pvc.yml
+- fibonacci-cache-deploy.yml
+- fibonacci-cache-service.yml
